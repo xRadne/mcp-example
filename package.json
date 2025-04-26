@@ -1,5 +1,6 @@
 {
   "name": "mcp-example",
+  "license": "MIT",
   "version": "1.0.0",
   "description": "MCP server example implementation",
   "type": "module",
