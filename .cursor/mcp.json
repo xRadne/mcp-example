@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "greeter-server-example": {
+      "name": "MCP Greeter Server Example",
+      "url": "http://localhost:8080/sse"
+    }
+  }
+}

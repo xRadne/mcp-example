@@ -1,0 +1,23 @@
+{
+  "name": "mcp-example",
+  "version": "1.0.0",
+  "description": "MCP server example implementation",
+  "type": "module",
+  "bin": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/main.ts",
+    "start": "yarn build && node dist/main.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.9.0",
+    "@types/express": "^5.0.1",
+    "express": "^5.1.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.24",
+    "tsx": "4.7.1",
+    "typescript": "5.8.3"
+  }
+}
